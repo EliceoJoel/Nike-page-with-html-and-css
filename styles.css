@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background: #ffff;
+}
+
+a {
+   text-decoration:  none;
+   color: black;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   padding: 0 100px 0 100px;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom:1px solid rgb(241, 237, 237);
+}
+
+
+
+
+/************************** HEADER *********************/
+.logo-header {
+   cursor: pointer;
+}
+
+.logo {
+   cursor: pointer;
+   padding-left:10px;
+}
+
+.nav-links {
+   list-style: none;
+}
+
+.nav-links li {
+   display: inline-block;
+   padding: 10px 20px;
+}
+
+.nav-links li:hover{
+   background-color: black;
+   color: white;  
+}
+
+.nav-links li:hover a {
+   background-color: black;
+   color: white;  
+}
+
+.icon-header {
+   padding: 0px 10px;
+}
+
+.icon-header a {
+   padding: 0px 10px;
+}
+
+
+
+/******************* BODY ****************************/
+
+
+
+/** TOP BODY **/
+.top-body {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 25px 20px;
+}
+
+.search{
+   position: relative;
+   display: flex;
+ } 
+
+.searchTerm {
+   border: 1px solid #000000;
+   border-right: none;
+   padding: 15px;
+   height: 50px;
+   outline: none;
+}
+
+
+.searchButton {
+   width: 50px;
+   height: 50px;
+   border: 1px solid #000000;
+   background: #000000;
+   text-align: center;
+   color: #fff;
+   cursor: pointer;
+   font-size: 20px;
+   outline: none;
+}
+
+.searchButton:active{
+   background: rgb(207, 206, 206);
+}
+
+.searchButton:active i{
+   background: rgb(207, 206, 206);
+   color: #000000
+}
+
+.search i {
+   background: black;
+}
+
+
+
+
+/** MEDIUM BODY **/
+
+.medium-body {
+   display: flex;
+}
+
+/** LEFT MENU **/
+
+.left-menu {
+   width: 20%;
+   margin-right: 10px;
+}
+.left-menu h3 {
+   margin-bottom: 30px;
+}
+
+.type-product{
+   margin-bottom: 60px;
+}
+
+.list-type-product{
+   list-style: none;
+}
+
+.list-type-product li{
+   margin-bottom: 20px;
+}
+
+.list-type-product li:hover {
+   border-bottom: 3px solid #000000;
+}
+
+.filter-price {
+   margin-bottom: 60px;
+}
+
+.checkbox-price {
+   margin-bottom: 20px;
+}
+
+.checkbox-price input {
+   margin-right: 10px;  
+}
+
+.grid-color button{
+   height: 30px;
+   border: 0px;
+   width: 30px;
+   margin: 5px;
+   border-radius: 50%;
+   outline: none;
+   cursor: pointer;
+}
+
+.white{background: #948c8c}
+.grey{background: #cbcbcb}
+.grey2{background:#ebe1be}
+.yellow{background:#fed431}
+.yellowBrown{background:#d9af01}
+.lightGreen{background:#7bb93c}
+.lightBlue{background:#1990c8}
+.pink{background:#d92a91}
+.greenBrown{background:#7f8001}
+.red{background:#e7342c}
+.lead{background:#787878}
+.brown{background:#825d41}
+.black{background:#111111}
+.yellowBrown{background: #f5a621}
+.leadStrong{background:#707070}
+.purple{background:#5c094a}
+
+
+
+/**GRIP PRODUCTS**/
+
+.row {
+   display: flex;
+}
+
+.column {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 40px;
+}
+
+img {
+   width: 455px;
+   height: 455px;
+}
+
+.general-information {
+   display: flex;
+   justify-content: space-between;
+   padding: 5px 10px;
+}
+
+.information-2 {
+   display: flex;
+   justify-content: space-between;
+   padding: 5px 10px;
+}
+
+.information-2 h4{
+   color: rgb(207, 206, 206)
+}
+
+/** BOTTOM BODY**/
+
+.bottom-body {
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+}
+
+.more-button{
+   height: 50px;
+   width: 120px;
+   border: 1px solid #000000;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+}
+
+.more-button:active{
+   background: #000000;
+   color: #fff;
+}
+
+
+ /************************** FOOTER ***********************/
+.footer {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   border-top:1px solid rgb(241, 237, 237);
+}
+
+.menu-footer {
+   width: 33.3%;
+}
+
+.nav-links-footer {
+   list-style: none;
+   float: left;
+}
+
+.nav-links-footer li {
+   display: inline;
+   padding: 0px 10px;
+}
+
+.logo-footer {
+   width: 33.3%;
+}
+
+.social-networks {
+   width: 33.3%;
+   float: right;
+}
+
+.social-networks a {
+   padding: 0px 10px;
+   float: right;
+}
